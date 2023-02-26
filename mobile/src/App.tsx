@@ -1,20 +1,20 @@
 import React from 'react';
-import {StatusBar} from 'react-native';
+import {StatusBar, View} from 'react-native';
+import './lib/dayjs';
 
-import Loading from './components/Loading';
-
-import {Container} from './styles';
+//import Loading from './components/Loading';
+import Home from './screens/Home';
 
 function App() {
   return (
-    <Container>
-      <Loading />
+    <View className="flex-1">
+      <Home />
       <StatusBar
         barStyle="light-content"
         backgroundColor="transparent"
         translucent
       />
-    </Container>
+    </View>
   );
 }
 
