@@ -5,8 +5,8 @@ import {StatusBar, Text, View} from 'react-native';
 function App(): JSX.Element {
   return (
     <View>
-      <StatusBar barStyle="light-content" backgroundColor="white" />
-      <Text>Open up App.tsx</Text>
+      <StatusBar barStyle="dark-content" backgroundColor="gray" />
+      <Text>Open up App.teste</Text>
     </View>
   );
 }
