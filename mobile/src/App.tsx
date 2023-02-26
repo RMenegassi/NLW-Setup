@@ -1,13 +1,20 @@
 import React from 'react';
+import {StatusBar} from 'react-native';
 
-import {StatusBar, Text, View} from 'react-native';
+import Loading from './components/Loading';
 
-function App(): JSX.Element {
+import {Container} from './styles';
+
+function App() {
   return (
-    <View>
-      <StatusBar barStyle="dark-content" backgroundColor="gray" />
-      <Text>Open up App.teste</Text>
-    </View>
+    <Container>
+      <Loading />
+      <StatusBar
+        barStyle="light-content"
+        backgroundColor="transparent"
+        translucent
+      />
+    </Container>
   );
 }
 
