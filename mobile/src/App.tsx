@@ -2,13 +2,12 @@ import React from 'react';
 import {StatusBar, View} from 'react-native';
 import './lib/dayjs';
 
-//import Loading from './components/Loading';
-import Home from './screens/Home';
+import Routes from './routes';
 
 function App() {
   return (
     <View className="flex-1">
-      <Home />
+      <Routes />
       <StatusBar
         barStyle="light-content"
         backgroundColor="transparent"
