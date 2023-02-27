@@ -3,7 +3,7 @@ import React from 'react';
 
 const Loading = () => {
   return (
-    <View>
+    <View className="bg-background flex-1 justify-center">
       <ActivityIndicator color="#7C3AED" />
     </View>
   );
