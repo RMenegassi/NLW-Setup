@@ -1,6 +1,6 @@
 import {View, Text, ScrollView, Alert} from 'react-native';
-import React, {useState, useEffect} from 'react';
-import {useNavigation} from '@react-navigation/native';
+import React, {useState, useCallback} from 'react';
+import {useNavigation, useFocusEffect} from '@react-navigation/native';
 
 import Header from '../components/Header';
 import Loading from '../components/Loading';
@@ -41,9 +41,11 @@ const Home = () => {
     }
   };
 
-  useEffect(() => {
-    fetchData();
-  }, []);
+  useFocusEffect(
+    useCallback(() => {
+      fetchData();
+    }, []),
+  );
 
   if (loading) {
     return <Loading />;

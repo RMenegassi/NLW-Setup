@@ -13,5 +13,7 @@ export function generateDatesFromYearBeginning() {
     compareDate = compareDate.add(1, "day");
   }
 
+  console.log(dates[0].toString());
+
   return dates;
 }
