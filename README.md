@@ -3,7 +3,7 @@
   <h1 align="center">Habits</h3>
 
   <p align="center">
-    An habit manager built with React-Native for Android devices.
+    A habit manager built with React-Native for Android devices.
   </p>
 </div>
 
