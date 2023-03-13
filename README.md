@@ -3,7 +3,7 @@
   <h1 align="center">Habits</h3>
 
   <p align="center">
-    A habit manager built with React-Native for Android devices.
+    A habit manager built with React-Native for Android devices, React for web and SQL Server made with Prisma as back-end.
   </p>
 </div>
 
@@ -24,7 +24,7 @@
 
 ## About
 
-Habits is an app for controlling your habits, it allows you to create and manage your daily habits. It uses a SQL DataBase made with Prisma to save the user data. The application has a web interface and a mobile interface.
+Habits is an app for controlling your habits, it allows you to create and manage your daily habits. It uses a SQL Server made with Prisma to save the user data. The application has a web interface and a mobile interface.
 
 This app was made with the help of the "NLW Setup" course by [Rocketseat](https://www.rocketseat.com.br).
 
