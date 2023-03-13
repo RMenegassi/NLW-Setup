@@ -3,7 +3,7 @@
   <h1 align="center">Habits</h3>
 
   <p align="center">
-    A habit manager built with React-Native for Android devices, React for web and SQL Server made with Prisma as back-end.
+    A habit manager built with React-Native for Android devices, React for web and a SQL Server made with Prisma for back-end.
   </p>
 </div>
 
